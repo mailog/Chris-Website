@@ -1,0 +1,32 @@
+#toolbar
+{
+	display: inline-block;
+	width: 100%;
+	margin-top: 5%;
+}
+
+#toolbar h1
+{
+	display: inline-block;
+	width: 25%;
+	margin: 0;
+	margin-left: 20%;
+}
+
+#toolbar-buttons
+{
+	width: 15%;
+	margin-left: 15%;
+	display: inline-block;
+}
+
+#toolbar-buttons button
+{
+	width: 33%;
+	border: none;
+}
+
+#toolbar-buttons button:hover
+{
+	cursor: pointer;
+}
