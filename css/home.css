@@ -1,5 +1,11 @@
+@font-face {
+  font-family: libre;
+  src: url(../fonts/LibreBaskerville.ttf) format('truetype');
+}
+
 html {
-  scroll-behavior: smooth;
+	font-family: libre;
+	scroll-behavior: smooth;
 }
 
 html,body
@@ -29,6 +35,11 @@ html,body
 	display: inline-block;
 }
 
+#home h1
+{
+	text-decoration: underline;
+}
+
 #home #text
 {
 	width: 25%;
@@ -43,15 +54,84 @@ html,body
 	margin-top: 0;
 }
 
-#links
+#work
 {
 	margin-top: 5%;
 	text-align: center;
 }
 
-#links a
+.workpiece
+{
+	margin-bottom: 5%;
+}
+
+#work a
+{
+	display: block;
+	font-size: 1.5vw;
+    color: white;
+    text-decoration: none;
+	margin: 0;
+}
+
+#work img
+{
+	width: 35%;
+	margin: 0 auto;
+	height: auto;
+}
+
+#work .desc
+{
+	margin: 0;
+	margin-top: 1%;
+}
+
+#trailer-container
+{
+	width: 35%;
+	margin: 0 auto;
+}
+
+.video-container
+{
+    position: relative;
+    margin: 0% auto;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+
+#social
+{
+	margin-top: 5%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+#social a
 {
 	font-size: 1vw;
-	text-decoration: underline;
     color: white;
+}
+
+#social img
+{
+	width: 2.5%;
+	height: auto;
+	margin: 0;
+	margin-left: 1%;
+	margin-right: 1%;
+	vertical-align: middle;
 }
