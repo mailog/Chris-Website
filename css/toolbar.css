@@ -1,8 +1,9 @@
 #toolbar
 {
+    background-color: #E6E6FA;
 	display: inline-block;
 	width: 100%;
-	margin-top: 5%;
+	height:  10%;
 }
 
 #toolbar h1
@@ -11,6 +12,7 @@
 	width: 25%;
 	margin: 0;
 	margin-left: 20%;
+	margin-top: 1%;
 }
 
 #toolbar-buttons
@@ -22,6 +24,8 @@
 
 #toolbar-buttons button
 {
+    background-color: #E6E6FA;
+	vertical-align: middle;
 	width: 33%;
 	border: none;
 }
